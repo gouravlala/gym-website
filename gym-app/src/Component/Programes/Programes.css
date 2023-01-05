@@ -14,7 +14,7 @@
     color: white;
     text-transform: uppercase;
     font-style: italic;
-
+    
 }
 .programes-categories{
     display: flex;
@@ -28,4 +28,32 @@
     gap: 1rem;
     color: white;
     justify-content: space-between;
+    transition: 300ms;
+   
+}
+
+.categories> :nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    fill: orange;
+}
+.categories> :nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+.categories> :nth-child(1){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.join-now{
+    display: flex;
+    gap: 2rem;align-items: center;
+}
+
+.join-now>img{
+    width: 1rem;
+}
+.categories:hover{
+    background-color: #f48915;
+    cursor: pointer;
 }
